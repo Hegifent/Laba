@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint --ext .js .",
+    "lint:fix": "eslint --ext .js --fix .",
+    "prettier:check": "prettier --check \"**/*.js\"",
+    "prettier:write": "prettier --write \"**/*.js\"",
     "dev": "nodemon index.js"
   },
   "keywords": [],
@@ -27,6 +31,6 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.5.0",
+    "prettier": "^2.5.0"
   }
 }
